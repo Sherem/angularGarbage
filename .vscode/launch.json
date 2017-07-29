@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "chrome",
+            "url": "http://localhost:4200/",
+            "port": 9223,
+            "sourceMaps": true,
+            "trace": true,
+            "webRoot": "${workspaceRoot}",
+            "userDataDir": "${workspaceRoot}/out/chrome",
+            "request":"launch"
+        }
+    ]
+}
